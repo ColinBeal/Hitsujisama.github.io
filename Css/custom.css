@@ -1,0 +1,40 @@
+#animation {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    
+    width: 150px;
+    height: 150px;
+    
+    background: blue;
+    color:white;
+    text-align: center;
+    font-size: 500%;
+    -webkit-transtion: all 0.5s eaase; 
+    transition: all 0.5s ease;
+}
+
+#animation:hover {
+    background: green;
+    width: 140px;
+    height: 140px;
+    box-shadow: ;
+    transform: rotate(20deg);
+}
+
+h1{
+    text-align: center;
+}
+
+h1:hover{
+    padding-left: 60px;
+    color:burlywood;
+    transition: all 1.5s ease;
+}
+
+.thumbnail{
+    height: 200px;
+    width: auto
+    overflow: hidden;
+}
+
